@@ -159,8 +159,6 @@ images.forEach(element => {
     <h2 class="text">${element.text}</h2>
     <p class="subtext">${element.subtext}</p>
 </div>`
-
-
 });
 
 document.querySelector('#main').innerHTML = content;
