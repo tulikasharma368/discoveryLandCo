@@ -115,7 +115,7 @@ images = [
     },
     {
         id: 20,
-        src:"/assets/our-world/20.jpg",
+        src:"/assets/our-world/20.jpeg",
         text: "Mirabel",
         subtext: "Scottsdale, Arizona"
     },

@@ -1,0 +1,13 @@
+header{
+    /* position: relative; */
+    /* background-color: initial; */
+    /* z-index: 5; */
+}
+
+.imm{
+    position: absolute;
+    z-index: -1;
+}
+.main-container-gallery{
+    
+}
