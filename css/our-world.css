@@ -16,13 +16,13 @@ ul{
 
 li{
     cursor: pointer;
-    font-family: 'Martel Sans', sans-serif;;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 header{
     background-color:rgb(24, 24, 23);
     height: 100px;
-    padding-top: 20px;
+    padding-top: 4%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -49,9 +49,10 @@ header li{
     text-decoration: underline;
 }
 
-/* i{
-    background-color: white;
-} */
+.link{
+    text-decoration: none;
+    color: #fff; 
+}
 
 ul img{
     height: 10px;
@@ -148,10 +149,6 @@ footer img{
 .ele{
     margin-bottom: 20px;
     font-size: 16px;
-}
-
-.mail:link{
-    color: #fff;
 }
 
 .copyright{
@@ -296,6 +293,10 @@ footer img{
 }
 
 @media only screen and (max-width: 800px){
+    header{
+        padding-top: 5%;
+    }
+
     header ul{
         margin-left: 0%;
         padding-left: 0%;
@@ -303,7 +304,7 @@ footer img{
 
     header img {
         width: 150px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .header-list{
@@ -368,6 +369,10 @@ footer img{
     .list2{
         padding-left: 0%;
         margin-right: 140%;
+    }
+
+    .footer-content{
+        width: 80%;
     }
 
     .copyright{
