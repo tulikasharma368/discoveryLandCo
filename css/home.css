@@ -1,0 +1,109 @@
+.header-image-home{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    background-color: initial;
+    z-index: 5;
+}
+
+.video-home{
+    height: 100%; 
+    width: 100%;
+}
+
+.header-text-home{
+    position: absolute;
+    z-index: 5;
+    margin-left: 20%;
+    margin-top: 35vh;
+    font-size: 5rem;
+    font-weight: 100;
+    color: #fff;
+    font-family: 'Benne', serif;
+}
+
+.your-world{
+    margin-top: -70px;
+}
+
+.div1{
+    display: flex;
+    background-image: url("/assets/home/1.jpg");
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    width: 40%;
+}
+
+.wel{
+    color: #000;
+    font-weight: 200;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    margin: 0%;
+    margin-left: 7%;
+}
+
+.cont{
+    color: #777777;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 500;
+    margin-left: 7%;
+}
+
+.cont > div{
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+}
+
+.image2-home{
+    height: 267px;
+    width: 430px;
+    margin-top: 22%;
+}
+
+.right-div{
+    height: 70%;
+    width: 37%;
+    margin-left: 7%;
+}
+
+.image3-home{
+    height: 100%;
+    width: 100%;
+}
+
+.div2{
+    display: flex;
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    color: #000;
+    /* align-content: center; */
+    padding-top: 60px;
+
+}
+
+.div2-content{
+    color: #000;
+    font-weight: 100;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    margin: 0%;
+    margin-left: 10%;
+}
