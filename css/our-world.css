@@ -61,8 +61,6 @@ ul img{
 }
 
 
-
-
 .main-container{
     padding: 15px;
     display: grid;
@@ -99,11 +97,11 @@ ul img{
     padding: 0;
 }
 
+
 footer{
     padding-top: 120px;
     padding-bottom: 80px;
     background-color:#161f1e;
-    /* grid-template-columns: 1fr 1.2fr; */
 }
 
 .footer-content{
@@ -113,7 +111,6 @@ footer{
 }
 
 footer img{
-    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(336deg) brightness(101%); */
     margin-left: 10%;
     width: 50px;
     height: 50px;
@@ -127,15 +124,11 @@ footer img{
     width: 48%;
     margin-left: 10%;
     padding-top: 10px;
-    /* grid-template-columns: 1fr 2fr; */
 }
 
 .inner-lists{
     display: flex;
-    width: 20%;  /* increase the width and elements come closer.....why? */
-    
-    /* justify-content: space-evenly; */
-    /* grid-template-columns: 1fr 1fr; */
+    width: 20%;
 }
 
 .list1{
@@ -157,6 +150,51 @@ footer img{
     font-size: 12px;
 }
 
+
+/* Dropdown */
+.menu-dropdown{
+    display: flex;
+    
+    background-color:rgb(24, 24, 23);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    flex-direction: column;
+    font-family: 'Benne', serif;
+}
+
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 80%;
+    height: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 40px;
+}
+
+.menu-image1{
+    height: 45%;
+}
+
+.menu-image2{
+    height: 25%;
+    cursor: pointer;
+}
+.menu-part1{
+    display: none;
+}
+
+.menu-part2{
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin-top: -50px;
+    font-size: 45px;
+    text-align: center;
+}
 /* @media only screen and (max-width: 2300px){
     header li{
         font-size: 30px;
@@ -290,9 +328,13 @@ footer img{
     .copyright{
         font-size: 11px;
     }
+
+    .menu-part2{
+        margin-top: 0%;
+    }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px){   /* here */
     header{
         padding-top: 5%;
     }
@@ -378,6 +420,29 @@ footer img{
     .copyright{
         margin-left: 10%;
     }
+
+    .menu-part1{
+        display: flex;
+        justify-content: start;
+        font-size: 34px;
+    }
+    
+    .menu-part2{
+        justify-content: start;
+        font-size: 15px;
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    .menu-part2 li{
+        margin-bottom: 6px;
+        color:#FFFFFF80;
+    }
+
+    .con{
+        display: none;
+    }
+    
 }
 
 @media only screen and (max-width: 500px){
@@ -424,3 +489,23 @@ footer img{
     }
 }
 
+@media only screen and (max-height: 650px){
+    .menu-part1{
+        display: flex;
+        justify-content: start;
+        font-size: 24px;
+        margin-top: -20px;
+    }
+    
+    .menu-part2{
+        justify-content: start;
+        font-size: 10px;
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    .menu-top{
+        margin-left: 12%;
+        width: 70%;
+    }
+}

@@ -6,16 +6,16 @@ function header(){
 <div>
     <ul class="header-list">
         <li class="und1">About DLC</li>
-        <a class="link" href="/pages/ourWorlds.html" ><li class="und2">Our Worlds</li></a>
-        
+        <a class="link" href="/pages/ourWorlds.html" ><li class="und2">Our Worlds</li></a>        
         <li class="und3">Experiences</li>
         <a class="link" href="/pages/gallery.html" ><li class="und4">Gallery</li></a>
         <li class="und5">Press</li>
-        <li><img src="/assets/our-world/menu.png" alt=""></li>
-        <!-- <ul><i class="fas fa-bars"></i></ul> -->
+        <li>
+            <img src="/assets/our-world/menu.png" onclick="dropdown()" alt="">
+        </li>
     </ul>
     <ul>
-        <li class="header-list1"><img src="/assets/our-world/menu.png" alt=""></li>
+        <li class="header-list1"><img src="/assets/our-world/menu.png" onclick="dropdown()" alt=""></li>
     </ul>
 </div>`
 
@@ -55,4 +55,33 @@ function footer(){
 <p class="copyright">© Discovery Land Company.All rights reserved.</p>`
 
 document.querySelector('#footer').innerHTML = footerHtml;
+}
+
+function dropdown(){
+    const content = `<div class="menu-dropdown">
+    <div class="menu-top">
+        <img class="menu-image1" src="/assets/our-world/logo-discoveryland.png" alt="">
+        <img class="menu-image2" src="/assets/our-world/close.png" alt="" onclick="document.querySelector('#menu').innerHTML=''">
+    </div>
+    <div class="menu-part1">
+        <ul>
+            <li>About DLC</li>
+            <li>Our worlds</li>
+            <li>Experience</li>
+            <li>Gallery</li>
+            <li>Press</li>
+        </ul>
+    </div>
+    <div class="menu-part2">
+        <ul>
+            <li>Magazine</li>
+            <li>Company</li>
+            <li>Foundation</li>
+            <li>Carrer</li>
+            <li class="con">Contact</li>
+        </ul>
+    </div>
+    
+</div>`
+document.querySelector('#menu').innerHTML = content;
 }
