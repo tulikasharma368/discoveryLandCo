@@ -1,3 +1,6 @@
+body{
+    background-color: #f3f3f3;;
+}
 .header-image-home{
     position: relative;
     margin: 0%;
@@ -95,7 +98,7 @@ header{
     background-color: #fff;
     color: #000;
     padding-top: 30px;
-
+    background-color: #f3f3f3;;
 }
 
 .div2-content{
@@ -110,13 +113,15 @@ header{
 
 /* slider */
 .slider{
-    height: 600px;
-    margin: auto;
+    height: 800px;
+    /* margin: auto; */
     margin-left: 0%;
     position: relative;
-    width: 90%;
+    width: 100%;
     display: grid;
     place-items: center;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
 }
 
 .slide-track{
@@ -147,8 +152,8 @@ header{
 }
 
 .slide img{
-    height: 450px;
-    width: 370px;
+    height: 510px;
+    width: 420px;
     filter: brightness(70%);
 }
 
@@ -159,4 +164,125 @@ header{
     100%{
         transform: translateX(calc(-250px * 25));
     }
+}
+
+/* div4 */
+.div4{
+    padding-left: 7%;
+    padding-bottom: 50px;
+    background-color: #f3f3f3;
+}
+
+.land, .discovery{
+    font-size: 50px;
+}
+
+.a-world, .explore-map{
+    font-size: 18px;
+    color: #777777;
+}
+
+.a-world{
+    margin-top: 50px;
+}
+
+.explore-map{
+    margin-top: 10px;
+}
+
+.place{
+    display: flex;
+    margin-top: 50px;
+    width: 30%;
+    justify-content: space-between;
+}
+
+/* div5 */
+.div5{
+    background-color: #f3f3f3;
+    position:relative;
+    bottom: 0;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.globe{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.globe > img{
+    height: 100%;
+    width: 70%;
+}
+
+.info{
+    height: 600px;
+    width: 680px;
+    position: absolute;
+    background-color:#161F1E;
+    color: white;
+    z-index: 4;
+    margin-top: 60px;
+    margin-left: 50%;
+}
+
+.div5-image{
+    position: absolute;
+    z-index: 10;
+    width: 230px;
+    height: 510px;
+    margin-left: 76%;
+}
+
+/* div6 */
+.div6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+
+.end-img{
+    height: 100%;
+    position: relative;
+}
+
+.img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.end-img > h1{
+    position: absolute;
+    margin-top: 55%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 100;
+    font-size: 40px;
+    z-index: 2;
+}
+
+.experiences{
+    margin-left: 20%;
+}
+
+.lifestyle{
+    margin-left: 30%;
+}
+
+.wellness{
+    margin-left: 30%;
+}
+
+.arrow{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 70%;
+    z-index: 2;
+    /* border: 2px;
+    border: solid; */
+
 }
