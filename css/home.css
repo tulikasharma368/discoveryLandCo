@@ -25,7 +25,7 @@ header{
     position: absolute;
     z-index: 5;
     margin-left: 20%;
-    margin-top: 35vh;
+    margin-top: 20%;
     font-size: 5rem;
     font-weight: 100;
     color: #fff;
@@ -87,6 +87,10 @@ header{
     margin-left: 7%;
 }
 
+.right-div-hide{
+    display: none;
+}
+
 .image3-home{
     height: 100%;
     width: 100%;
@@ -95,7 +99,7 @@ header{
 .div2{
     display: flex;
     width: 100%;
-    height: 150px;
+    height: 200px;
     background-color: #fff;
     color: #000;
     padding-top: 30px;
@@ -108,13 +112,15 @@ header{
     font-family: 'Nanum Gothic Coding', monospace;
     font-size: 50px;
     letter-spacing: 1.5px;
-    margin: 0%;
+    margin-top: 3%;
     margin-left: 10%;
 }
 
 /* slider */
 .slider{
-    height: 800px;
+    height: 700px;
+    padding-top: 0%;
+    margin-top: 0%;
     /* margin: auto; */
     margin-left: 0%;
     position: relative;
@@ -208,7 +214,7 @@ header{
 }
 
 .globe{
-    height: 100%;
+    height: 100vh;
     width: 100%;
     bottom: 0;
 }
@@ -218,23 +224,27 @@ header{
     width: 70%;
 }
 
+.inner-div5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .info{
-    height: 540px;
-    width: 620px;
+    height: 90%;
+    width: 45%;
     position: absolute;
     background-color:#161F1E;
     color: white;
     z-index: 4;
-    margin-top: 60px;
-    margin-left: 48%;
 }
 
 .div5-image{
     position: absolute;
     z-index: 10;
-    width: 230px;
+    width: 15%;
     height: 540px;
-    margin-left: 76%;
+    margin-left: 27%;
+    margin-top: -40px;
 }
 
 /* div6 */
@@ -248,6 +258,7 @@ header{
 .end-img{
     height: 100%;
     position: relative;
+    filter: brightness(70%);
 }
 
 .img{
@@ -323,6 +334,12 @@ header{
     cursor: pointer;
 }
 
+.video-home2{
+    height: 100%; 
+    width: 100%;
+}
+
+
 .cross{
     position: absolute;
     z-index: 4;
@@ -331,4 +348,109 @@ header{
     margin-top: 40px;
     margin-left: 90%;
     cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .place{
+        width: 50%;
+    }
+    
+    .div5{
+        display: grid;
+        position: static;
+    }
+    
+    .globe{
+        height: 50vh;
+        width: 100%;
+        grid-row: 1/1;
+    }
+
+    .globe > img{
+        width: 60%;
+        height: 100%;
+    }
+    
+    .inner-div5{
+        display: block;
+    }
+    
+    .black-box{
+        display: block;
+    }
+
+    .info{
+        height: 50vh;
+        width: 100%;
+        position: static;
+        grid-row: 1/1;
+    }
+    
+
+    .div5-image{
+        width: 45%;
+        height: 45%;
+        margin-left: 55%;
+    }
+
+    .div6{
+        height: 50vh;
+    }
+
+    .img{
+        height: 100%;
+        position: absolute;
+    }
+
+    .div1{
+        display: grid;
+        grid-template-rows: 1fr ;
+        background-image: none;
+        overflow-x: hidden;
+        padding-bottom: 0%;
+        /* height: fit-content; */
+    }
+
+    .left-div{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .right-div{
+        display: none;
+    }
+
+    .wel{
+        margin-left: 10%;
+    }
+
+    .cont{
+        margin-left: 10%;
+    }
+
+    .right-div-hide{
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 100px;
+        height: 90%;
+    }
+
+    .image2-home{
+        /* height: 267px; */
+        width: 100%;
+        margin: 0%;
+        height:80%;
+        margin-top: 15%;
+    }
+
+    .end-img > h1{
+        font-size: 30px;
+        margin-top: 70%;
+    }
+    
+    .arrow{
+        margin-top: 85%;
+    }
+
 }

@@ -2,10 +2,11 @@ window.onload = header();
 window.onload = footer();
 
 function header(){
-    const headerHtml = `<img src="/assets/our-world/logo-discoveryland.png" alt="">
+    const headerHtml = `<a href='/pages/home.html'><img src="/assets/our-world/logo-discoveryland.png" alt=""></a>
 <div>
     <ul class="header-list">
-        <li class="und1">About DLC</li>
+        <a class="link" href="/pages/about.html" ><li class="und1">About DLC</li></a>
+        
         <a class="link" href="/pages/ourWorlds.html" ><li class="und2">Our Worlds</li></a>        
         <li class="und3">Experiences</li>
         <a class="link" href="/pages/gallery.html" ><li class="und4">Gallery</li></a>
@@ -34,7 +35,7 @@ function footer(){
     </ul>
     <div class="inner-lists">
         <ul class="list2">
-            <li class="ele under1">About DLC</li>
+            <a class="link" href="/pages/about.html"><li class="ele under1">About DLC</li></a>
             <a class="link" href="/pages/ourWorlds.html"><li class="ele under2">Our Worlds</li></a>
             <li class="ele under3">Experiences</li>
             <a class="link" href="/pages/gallery.html"><li class="ele under4">Gallery</li></a>
