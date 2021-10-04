@@ -169,3 +169,76 @@ function home_images(){
     document.querySelector('.slide-track').innerHTML = content;
 
 }
+
+function video1(){
+    const content = `<img class="cross" src="/assets/our-world/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Experiences</div>
+        <div class="inner">Experince the ultimate round of golf on championship</div>
+        <div class="inner">courses designed by the world’s most highly acclaimed</div>
+        <div class="inner">architects or take a thrilling adventure with limitless</div>
+        <div class="inner">activities for everyone to enjoy.</div>
+        <div class="explore-button">Explore</div>
+    </div>
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#div6').classList.remove('div6');
+    document.querySelector('#div6').innerHTML = ''; 
+}
+
+function video2(){
+    const content = `<img class="cross" src="/assets/our-world/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Lifestyle</div>
+        <div class="inner">Relish the very best times of your life with the ones you</div>
+        <div class="inner">love in our bespoke communities that cater to a family</div>
+        <div class="inner">orientated lifestyle through unparalleled amenities and</div>
+        <div class="inner">inspired experiences.</div>
+        <div class="explore-button">Explore</div>
+    </div>
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#div6').classList.remove('div6');
+    document.querySelector('#div6').innerHTML = ''; 
+}
+
+
+function video3(){
+    const content = `<img class="cross" src="/assets/our-world/close.png" alt="" onclick="noVideo()">
+    <div class="video1-text">
+        <div class="title">Welness</div>
+        <div class="inner">Relax and refresh your body and your mind in exquisite</div>
+        <div class="inner">surroundings. Escape to our stunning pools, unwind in</div>
+        <div class="inner">relaxing spas and explore innovative international</div>
+        <div class="inner">culinary offerings.</div>
+        <div class="explore-button">Explore</div>
+    </div>
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    document.querySelector('.video-div').innerHTML=content;
+    document.querySelector('#div6').classList.remove('div6');
+    document.querySelector('#div6').innerHTML = ''; 
+}
+
+
+function noVideo(){
+    document.querySelector('.video-div').innerHTML='';
+    document.querySelector('#div6').classList.add('div6');
+    document.querySelector('#div6').innerHTML = `<div class="end-img">
+    <img class="img" src="/assets/home/end1.jpg" alt="">
+        <h1 class="experiences">Experiences</h1>
+        <img class="arrow" src="/assets/home/right.png" alt="" onclick="video1()">
+    </div>
+    <div class="end-img">
+        <img class="img" src="/assets/home/end2.jpg" alt="">
+        <h1 class="lifestyle">Lifestyle</h1>
+        <img class="arrow" src="/assets/home/right.png" alt="" onclick="video2()">
+    </div>
+    <div class="end-img">
+        <img class="img" src="/assets/home/end3.jpg" alt="">
+        <h1 class="wellness">Welness</h1>
+        <img class="arrow" src="/assets/home/right.png" alt="" onclick="video3()">
+    </div>`; 
+
+}
+
+// https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236
