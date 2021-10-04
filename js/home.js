@@ -196,7 +196,7 @@ function video2(){
         <div class="inner">inspired experiences.</div>
         <div class="explore-button">Explore</div>
     </div>
-    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/lifestyle.mp4?mtime=20190609070318" autoplay loop="" muted></video>`
     document.querySelector('.video-div').innerHTML=content;
     document.querySelector('#div6').classList.remove('div6');
     document.querySelector('#div6').innerHTML = ''; 
@@ -213,7 +213,7 @@ function video3(){
         <div class="inner">culinary offerings.</div>
         <div class="explore-button">Explore</div>
     </div>
-    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" autoplay loop="" muted></video>`
+    <video class="video-home" src="https://dxaurk9yhilm4.cloudfront.net/wellness.mp4?mtime=20190609070447" autoplay loop="" muted></video>`
     document.querySelector('.video-div').innerHTML=content;
     document.querySelector('#div6').classList.remove('div6');
     document.querySelector('#div6').innerHTML = ''; 
@@ -241,4 +241,3 @@ function noVideo(){
 
 }
 
-// https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236

@@ -202,15 +202,15 @@ header{
 .div5{
     background-color: #f3f3f3;
     position:relative;
-    bottom: 0;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    height: 100%;
 }
 
 .globe{
     height: 100%;
     width: 100%;
-    position: relative;
+    bottom: 0;
 }
 
 .globe > img{
