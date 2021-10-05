@@ -315,10 +315,13 @@ header{
     margin-left: 40%;
     margin-top: 70%;
     z-index: 2;
-    /* border: 2px;
-    border: solid; */
+    border: 1px;
+    border: solid;
+    border-radius: 50%;
+    border-color: white;
     cursor: pointer;
-
+    fill: white;
+    box-shadow: 0px 0px 0px 0px;
 }
 
 .video1-text{
