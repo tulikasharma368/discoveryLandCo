@@ -6,9 +6,8 @@ function header(){
 <div>
     <ul class="header-list">
         <a class="link" href="/pages/about.html" ><li class="und1">About DLC</li></a>
-        
-        <a class="link" href="/pages/ourWorlds.html" ><li class="und2">Our Worlds</li></a>        
-        <li class="und3">Experiences</li>
+        <a class="link" href="/pages/ourWorlds.html"><li class="und2">Our Worlds</li></a>        
+        <a class="link" href="/pages/experiences.html"><li class="und3">Experiences</li></a>
         <a class="link" href="/pages/gallery.html" ><li class="und4">Gallery</li></a>
         <li class="und5">Press</li>
         <li>
@@ -37,7 +36,7 @@ function footer(){
         <ul class="list2">
             <a class="link" href="/pages/about.html"><li class="ele under1">About DLC</li></a>
             <a class="link" href="/pages/ourWorlds.html"><li class="ele under2">Our Worlds</li></a>
-            <li class="ele under3">Experiences</li>
+            <a class="link" href="/pages/experiences.html"><li class="ele under3">Experiences</li></a>
             <a class="link" href="/pages/gallery.html"><li class="ele under4">Gallery</li></a>
             <li class="ele under5">Press</li>
         </ul>
@@ -66,11 +65,13 @@ function dropdown(){
     </div>
     <div class="menu-part1">
         <ul>
-            <li>About DLC</li>
-            <li>Our worlds</li>
-            <li>Experience</li>
-            <li>Gallery</li>
+
+        <a class="link" href="/pages/about.html"><li>About DLC</li></a>
+            <a class="link" href="/pages/ourWorlds.html"><li>Our worlds</li></a>
+            <a class="link" href="/pages/experiences.html"><li>Experience</li></a>
+            <a class="link" href="/pages/gallery.html"><li>Gallery</li></a>
             <li>Press</li>
+            
         </ul>
     </div>
     <div class="menu-part2">
