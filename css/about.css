@@ -290,6 +290,7 @@ header{
 .div9-about > img{
     width: 100%;
     height: 100%;
+    filter: brightness(70%);
 }
 
 .div9-inner{
@@ -442,8 +443,13 @@ header{
         margin-top: -20px;
     }
 
+    .div2-text-p{
+        height: fit-content;
+    }
+
     .div2-about{
         margin-bottom: -200px;
+        margin-top: 20%;
     }
 
     .div3{
