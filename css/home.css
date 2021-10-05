@@ -516,6 +516,11 @@ header{
         box-shadow: 2px 4px 2px 4px gray;
     }
 
+    .arrow{
+        box-shadow: 0px 0px 0px 0px;
+        /* margin-top: 40%; */
+    }
+
     .place{
         width: 95%;
     }
