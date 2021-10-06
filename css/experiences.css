@@ -95,6 +95,7 @@
 .div9-exp{
     padding-top: 60px;
     background-color: #f3f3f3;
+    box-sizing: unset;
 }
 
 
@@ -178,7 +179,6 @@
     }        
 
     .div9-exp{
-        padding-top: 60px;
         background-color: #f3f3f3;
     }
 }
@@ -207,7 +207,6 @@
     }
 
     .div9-exp{
-        padding-top:0px;
         background-color: #f3f3f3;
     }
     

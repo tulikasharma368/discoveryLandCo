@@ -8,8 +8,8 @@ function header(){
         <a class="link" href="/pages/about.html" ><li class="und1">About DLC</li></a>
         <a class="link" href="/pages/ourWorlds.html"><li class="und2">Our Worlds</li></a>        
         <a class="link" href="/pages/experiences.html"><li class="und3">Experiences</li></a>
-        <a class="link" href="/pages/gallery.html" ><li class="und4">Gallery</li></a>
-        <li class="und5">Press</li>
+        <a class="link" href="/pages/gallery.html"><li class="und4">Gallery</li></a>
+        <a class="link" href="/pages/press.html"><li class="und5">Press</li></a>
         <li>
             <img src="/assets/our-world/menu.png" onclick="dropdown()" alt="">
         </li>
@@ -38,7 +38,7 @@ function footer(){
             <a class="link" href="/pages/ourWorlds.html"><li class="ele under2">Our Worlds</li></a>
             <a class="link" href="/pages/experiences.html"><li class="ele under3">Experiences</li></a>
             <a class="link" href="/pages/gallery.html"><li class="ele under4">Gallery</li></a>
-            <li class="ele under5">Press</li>
+            <a class="link" href="/pages/press.html"><li class="ele under5">Press</li></a>
         </ul>
         <ul class="list3">
             <li class="ele">Magazine</li>
@@ -70,8 +70,7 @@ function dropdown(){
             <a class="link" href="/pages/ourWorlds.html"><li>Our worlds</li></a>
             <a class="link" href="/pages/experiences.html"><li>Experience</li></a>
             <a class="link" href="/pages/gallery.html"><li>Gallery</li></a>
-            <li>Press</li>
-            
+            <a class="link" href="/pages/press.html"><li>Press</li></a>
         </ul>
     </div>
     <div class="menu-part2">
