@@ -138,7 +138,6 @@ header{
     cursor: pointer;
 }
 
-
 /* slider */
 .slider{
     height: 700px;
@@ -245,11 +244,6 @@ header{
     width: 70%;
 }
 
-.inner-div5{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
 .info{
     height: 90%;
     width: 45%;
@@ -257,6 +251,80 @@ header{
     background-color:#161F1E;
     color: white;
     z-index: 4;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+
+.arrows-globe{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.r-arrow-globe,.l-arrow-globe{
+    height:30px;
+    width:30px;
+    align-items: center;
+    cursor: pointer;
+    fill: #fff;
+}
+
+
+.weather{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.wind{
+    width: 28px;
+    filter:invert(100%) brightness(200%);
+}
+
+.compass{
+    width: 25px;
+    filter:invert(100%) brightness(200%);
+}
+
+.sun{
+    width: 30px;
+    filter: brightness(200%);
+}
+
+.text-black-box{
+    padding-left: 25px;
+    margin-top: 10%;
+}
+
+.inner-text-div > p{
+    color: #FFFFFF80;
+}
+
+.inner-text-div > h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.location{
+    display: flex;
+    font-size: 15px;
+    color: #FFFFFF80;
+    padding-left: 25px;
+}
+
+.location-img{
+    width: 20px;
+    height: 20px;
+    margin-top: 11px;
+    filter: invert();
+    background-color: inherit;
+    margin-right: 20px;
+}
+
+.inner-div5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .div5-image{
@@ -415,6 +483,18 @@ header{
         grid-row: 1/1;
     }
     
+    .weather{
+        margin-top: 10px;
+        width: 30%;
+    }
+
+    .location{
+        margin-top: -10px;
+    }
+
+    .text-black-box{
+        margin-top: 5px;
+    }
 
     .div5-image{
         width: 44%;
@@ -536,7 +616,54 @@ header{
 
     .info{
         height: 40vh;
+        padding-top: 20px;
     }
+
+    .l-arrow-globe, .r-arrow-globe{
+        width: 20px;
+    }
+
+    .weather{
+        margin-top: 10px;
+    }
+
+    .inner-weather  p{
+        font-size: 10px;
+    }
+
+    .compass{
+        width: 10px;
+        margin-top: 5px;
+    }
+
+    .location{
+        font-size: 10px;
+        padding-left: 2px;
+        margin-top: -20px;
+    }
+
+    .text-black-box{
+        padding-left: 2px;
+        margin-top: 13px;
+    }
+    
+    .inner-text-div > h1{
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .wind{
+        width: 23px;
+    }
+    
+    .compass{
+        width: 20px;
+    }
+    
+    .sun{
+        width: 25px;
+    }
+    
 
     .div5-image{
         width: 45%;
